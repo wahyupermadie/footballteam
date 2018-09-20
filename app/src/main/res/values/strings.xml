@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">FootballTeam</string>
 
+    <string name="favorites">Favorite</string>
+    <string name="Teams">Teams</string>
+    <string name="Favorite">Favorite</string>
+
     <array name="league">
         <item>English Premier League</item>
         <item>English League Championship</item>

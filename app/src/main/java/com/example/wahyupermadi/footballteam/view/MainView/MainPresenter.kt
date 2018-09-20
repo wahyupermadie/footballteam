@@ -1,6 +1,5 @@
-package com.example.wahyupermadi.footballteam.MainView
+package com.example.wahyupermadi.footballteam.view.MainView
 
-import android.widget.ProgressBar
 import com.example.wahyupermadi.footballteam.api.ApiClient
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable

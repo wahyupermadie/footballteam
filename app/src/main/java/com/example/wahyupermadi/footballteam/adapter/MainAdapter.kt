@@ -10,7 +10,7 @@ import com.example.wahyupermadi.footballteam.R
 import com.example.wahyupermadi.footballteam.model.Team
 import kotlinx.android.synthetic.main.team_list.view.*
 
-class MainAdapter (private val context: Context, private val teams: List<Team>, private val listener:(Team)->Unit): RecyclerView.Adapter<TeamViewHolder>() {
+class MainAdapter (private val context: Context?, private val teams: List<Team>, private val listener:(Team)->Unit): RecyclerView.Adapter<TeamViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TeamViewHolder {
 
         val rootview = LayoutInflater.from(context).inflate(R.layout.team_list,parent,false)

@@ -1,7 +1,6 @@
-package com.example.wahyupermadi.footballteam.MainView
+package com.example.wahyupermadi.footballteam.view.MainView
 
 import com.example.wahyupermadi.footballteam.model.Team
-import com.example.wahyupermadi.footballteam.model.TeamResponse
 
 interface MainContract {
 

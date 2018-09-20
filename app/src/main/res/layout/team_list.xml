@@ -24,6 +24,7 @@
                 android:contentDescription="FOTO" />
 
             <TextView
+                android:text="Nama Team"
                 android:textSize="18sp"
                 android:layout_marginStart="5dp"
                 android:layout_gravity="center"
